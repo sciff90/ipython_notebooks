@@ -1,0 +1,9 @@
+Test program for demonstrating reading in binary data into python from fortran. 
+The important note is that in the fortran write the access type must be 
+'direct'. If this is not the case it will not work.
+
+To run the program simple run the ipython notebook. This will compile and 
+execute the fortran code and then read the data arrays into python. The data 
+output from fortran is then deleted.
+
+Gareth Sciffer 3/2/2014
